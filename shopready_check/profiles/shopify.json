@@ -1,0 +1,230 @@
+{
+ "id": "shopify",
+ "name": "Shopify",
+ "checked": "2026-11-15",
+ "formats": [
+  "glb",
+  "usdz"
+ ],
+ "draco": false,
+ "rules": [
+  {
+   "id": "SH-FORMAT",
+   "severity": "fail",
+   "kind": "format",
+   "name": "File format",
+   "why": "Shopify accepts GLB and USDZ 3D files.",
+   "formats": [
+    "glb",
+    "usdz"
+   ],
+   "source": "https://help.shopify.com/en/manual/products/product-media/product-media-types",
+   "quote": "File type: GLB, USDZ"
+  },
+  {
+   "id": "SH-SIZE",
+   "severity": "fail",
+   "kind": "file_size",
+   "name": "File size",
+   "why": "Small files load fast in the store and in AR.",
+   "pass_max_bytes": 4194304,
+   "warn_max_bytes": 15000000,
+   "fail_max_bytes": 524288000,
+   "source": "https://help.shopify.com/en/manual/products/product-media/product-media-types",
+   "quote": "If you upload a 3D model file that exceeds 15 MB, then your file is automatically optimized."
+  },
+  {
+   "id": "SH-ONE-MESH",
+   "severity": "warn",
+   "kind": "mesh_count",
+   "name": "One mesh",
+   "why": "One object keeps the model simple to load and to check.",
+   "max": 1,
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "All objects have been combined into one object."
+  },
+  {
+   "id": "SH-ONE-MAT",
+   "severity": "warn",
+   "kind": "material_count",
+   "name": "One material",
+   "why": "One material means fewer draw calls and a smaller file.",
+   "max": 1,
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "There is only one material assigned to the model, unless otherwise necessary."
+  },
+  {
+   "id": "SH-SCALE",
+   "severity": "fail",
+   "kind": "real_size",
+   "name": "Real-world size",
+   "why": "AR shows the product at its true size, so the model must match it.",
+   "tolerance": 0.02,
+   "sanity_min_m": 0.01,
+   "sanity_max_m": 10.0,
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "The model is built to real-world scale."
+  },
+  {
+   "id": "SH-TRANSFORMS",
+   "severity": "fail",
+   "kind": "transforms",
+   "name": "Transforms applied",
+   "why": "Unapplied rotation or scale can turn or stretch the model in the store.",
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "All transformations have been frozen."
+  },
+  {
+   "id": "SH-ORIGIN",
+   "severity": "fail",
+   "kind": "origin",
+   "name": "Origin at the base",
+   "why": "The product must stand on the floor, centred, when shown in AR.",
+   "tolerance_m": 0.001,
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "The base of the model has been placed at the origin of the grid."
+  },
+  {
+   "id": "SH-TEX-MAX",
+   "severity": "warn",
+   "kind": "texture_max",
+   "name": "Texture size",
+   "why": "Textures over 2048 px make the file heavy without a visible gain.",
+   "max_px": 2048,
+   "tip_px": 1024,
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "For mobile web, texture files shouldn't be larger than 2048 x 2048 px."
+  },
+  {
+   "id": "SH-TEX-FORMAT",
+   "severity": "warn",
+   "kind": "texture_format",
+   "name": "Texture format",
+   "why": "JPG keeps colour maps small; PNG is only needed for transparency.",
+   "mode": "jpg_unless_alpha",
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "Textures should be optimized JPG files, if possible."
+  },
+  {
+   "id": "SH-PBR",
+   "severity": "warn",
+   "kind": "pbr",
+   "name": "PBR material",
+   "why": "Procedural nodes don't export; only image textures reach the store.",
+   "require_principled": false,
+   "flag_procedural": true,
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "Textures are exported using a physically-based rendering (PBR) workflow."
+  },
+  {
+   "id": "SH-ORM",
+   "severity": "warn",
+   "kind": "orm_packed",
+   "name": "Packed ORM texture",
+   "why": "Occlusion, roughness and metalness in one image saves file size.",
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "a single map with occlusion, roughness, and metalness mapped to the red, green, and blue channels respectively"
+  },
+  {
+   "id": "SH-UV-SET",
+   "severity": "warn",
+   "kind": "uv_sets",
+   "name": "One UV map",
+   "why": "Extra UV maps add weight and can confuse the exporter.",
+   "count": 1,
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "Multiple UV sets"
+  },
+  {
+   "id": "SH-UV-RANGE",
+   "severity": "fail",
+   "kind": "uv_range",
+   "name": "UVs inside 0–1",
+   "why": "UVs outside the square repeat or cut the texture.",
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "All the UV shells are positioned in the 1:1 space."
+  },
+  {
+   "id": "SH-UV-OVERLAP",
+   "severity": "warn",
+   "kind": "uv_overlap",
+   "name": "No overlapping UVs",
+   "why": "Overlapping UVs share pixels and can break baked detail.",
+   "grid": 256,
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "None of the UV shells overlap."
+  },
+  {
+   "id": "SH-NGONS",
+   "severity": "fail",
+   "kind": "ngons",
+   "name": "No n-gons",
+   "why": "Faces with more than 4 sides can render badly once triangulated.",
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "The mesh is quadrangulated, meaning it uses four-sided geometry."
+  },
+  {
+   "id": "SH-NONMANIFOLD",
+   "severity": "warn",
+   "kind": "nonmanifold",
+   "name": "Clean edges",
+   "why": "Open or tangled edges show as holes or dark seams.",
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "Make sure that all edges are sealed and that points have been connected."
+  },
+  {
+   "id": "SH-NORMALS",
+   "severity": "warn",
+   "kind": "normals",
+   "name": "Normals face outward",
+   "why": "Inverted normals make faces look missing or black.",
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": ""
+  },
+  {
+   "id": "SH-DEGENERATE",
+   "severity": "warn",
+   "kind": "degenerate",
+   "name": "No zero-area faces",
+   "why": "Faces with no area cause shading errors.",
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": ""
+  },
+  {
+   "id": "SH-MAN-BEVEL",
+   "severity": "manual",
+   "kind": "manual",
+   "name": "Edges bevelled",
+   "why": "Sharp edges look fake in close-up AR views.",
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "Product edges are beveled to smooth transitions:"
+  },
+  {
+   "id": "SH-MAN-SEAMS",
+   "severity": "manual",
+   "kind": "manual",
+   "name": "UVs unwrapped by hand with natural seams",
+   "why": "Seams in hidden places keep textures clean.",
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": ""
+  },
+  {
+   "id": "SH-MAN-ZFIGHT",
+   "severity": "manual",
+   "kind": "manual",
+   "name": "No visible Z-fighting",
+   "why": "Faces on top of each other flicker in the viewer.",
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "Z-fighting (duplicate polygons in the same place)"
+  },
+  {
+   "id": "SH-MAN-COLOUR",
+   "severity": "manual",
+   "kind": "manual",
+   "name": "Colours match the product photos",
+   "why": "Buyers compare the model with your photos.",
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "Materials assigned to the geometry match the product reference photos."
+  }
+ ]
+}

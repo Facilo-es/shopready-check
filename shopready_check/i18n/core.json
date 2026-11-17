@@ -1,0 +1,1388 @@
+{
+ "1 cm – 10 m": {
+  "es": "1 cm – 10 m",
+  "de_DE": "1 cm – 10 m",
+  "fr_FR": "1 cm – 10 m",
+  "it_IT": "1 cm – 10 m",
+  "pt_PT": "1 cm – 10 m"
+ },
+ "1 image": {
+  "es": "1 imagen",
+  "de_DE": "1 Bild",
+  "fr_FR": "1 image",
+  "it_IT": "1 immagine",
+  "pt_PT": "1 imagem"
+ },
+ "1 thing to fix before {store} accepts this model": {
+  "es": "1 cosa por corregir antes de que {store} acepte este modelo",
+  "de_DE": "1 Punkt zu beheben, bevor {store} dieses Modell akzeptiert",
+  "fr_FR": "1 point à corriger avant que {store} accepte ce modèle",
+  "it_IT": "1 cosa da correggere prima che {store} accetti questo modello",
+  "pt_PT": "1 coisa a corrigir antes de a {store} aceitar este modelo"
+ },
+ "AR shows the product at its true size, so the model must match it.": {
+  "es": "La RA muestra el producto a su tamaño real, así que el modelo debe coincidir.",
+  "de_DE": "AR zeigt das Produkt in Originalgröße, das Modell muss also passen.",
+  "fr_FR": "La RA affiche le produit à sa taille réelle, le modèle doit donc correspondre.",
+  "it_IT": "La AR mostra il prodotto in scala reale, quindi il modello deve corrispondere.",
+  "pt_PT": "A RA mostra o produto no tamanho real, por isso o modelo tem de coincidir."
+ },
+ "Active collection": {
+  "es": "Colección activa",
+  "de_DE": "Aktive Collection",
+  "fr_FR": "Collection active",
+  "it_IT": "Collezione attiva",
+  "pt_PT": "Coleção ativa"
+ },
+ "Add a material": {
+  "es": "Añadir un material",
+  "de_DE": "Material hinzufügen",
+  "fr_FR": "Ajouter un matériau",
+  "it_IT": "Aggiungi un materiale",
+  "pt_PT": "Adicionar um material"
+ },
+ "Advice from third parties, not Amazon's page: keep files under 5 MB.": {
+  "es": "Consejo de terceros, no de la página de Amazon: mantén los archivos por debajo de 5 MB.",
+  "de_DE": "Rat von Dritten, nicht von Amazons Seite: Dateien unter 5 MB halten.",
+  "fr_FR": "Conseil de tiers, pas de la page d'Amazon : gardez les fichiers sous 5 Mo.",
+  "it_IT": "Consiglio di terzi, non dalla pagina di Amazon: tieni i file sotto i 5 MB.",
+  "pt_PT": "Conselho de terceiros, não da página da Amazon: mantém os ficheiros abaixo de 5 MB."
+ },
+ "Amazon": {
+  "es": "Amazon",
+  "de_DE": "Amazon",
+  "fr_FR": "Amazon",
+  "it_IT": "Amazon",
+  "pt_PT": "Amazon"
+ },
+ "Amazon expects files without validator errors.": {
+  "es": "Amazon espera archivos sin errores del validador.",
+  "de_DE": "Amazon erwartet Dateien ohne Validator-Fehler.",
+  "fr_FR": "Amazon attend des fichiers sans erreur du validateur.",
+  "it_IT": "Amazon si aspetta file senza errori del validatore.",
+  "pt_PT": "A Amazon espera ficheiros sem erros do validador."
+ },
+ "Amazon only accepts a short list of glTF extensions.": {
+  "es": "Amazon solo acepta una lista corta de extensiones glTF.",
+  "de_DE": "Amazon akzeptiert nur eine kurze Liste von glTF-Erweiterungen.",
+  "fr_FR": "Amazon n'accepte qu'une courte liste d'extensions glTF.",
+  "it_IT": "Amazon accetta solo un breve elenco di estensioni glTF.",
+  "pt_PT": "A Amazon só aceita uma lista curta de extensões glTF."
+ },
+ "Amazon refuses files with modifiers, animation, cameras or lights.": {
+  "es": "Amazon rechaza archivos con modificadores, animación, cámaras o luces.",
+  "de_DE": "Amazon lehnt Dateien mit Modifikatoren, Animation, Kameras oder Lichtern ab.",
+  "fr_FR": "Amazon refuse les fichiers avec modificateurs, animation, caméras ou lumières.",
+  "it_IT": "Amazon rifiuta file con modificatori, animazione, camere o luci.",
+  "pt_PT": "A Amazon recusa ficheiros com modificadores, animação, câmaras ou luzes."
+ },
+ "Amazon refuses models over its triangle limit.": {
+  "es": "Amazon rechaza modelos que superan su límite de triángulos.",
+  "de_DE": "Amazon lehnt Modelle über seinem Dreieckslimit ab.",
+  "fr_FR": "Amazon refuse les modèles qui dépassent sa limite de triangles.",
+  "it_IT": "Amazon rifiuta i modelli oltre il suo limite di triangoli.",
+  "pt_PT": "A Amazon recusa modelos acima do seu limite de triângulos."
+ },
+ "Amazon takes 3D models as GLB or glTF.": {
+  "es": "Amazon admite modelos 3D en GLB o glTF.",
+  "de_DE": "Amazon nimmt 3D-Modelle als GLB oder glTF an.",
+  "fr_FR": "Amazon accepte les modèles 3D en GLB ou glTF.",
+  "it_IT": "Amazon accetta modelli 3D in GLB o glTF.",
+  "pt_PT": "A Amazon aceita modelos 3D em GLB ou glTF."
+ },
+ "Amazon wants square power-of-two textures from 2048 to 4096 px.": {
+  "es": "Amazon quiere texturas cuadradas, potencia de dos, de 2048 a 4096 px.",
+  "de_DE": "Amazon verlangt quadratische Texturen mit Zweierpotenz-Größe von 2048 bis 4096 px.",
+  "fr_FR": "Amazon veut des textures carrées, puissance de deux, de 2048 à 4096 px.",
+  "it_IT": "Amazon vuole texture quadrate, potenza di due, da 2048 a 4096 px.",
+  "pt_PT": "A Amazon quer texturas quadradas, potência de dois, de 2048 a 4096 px."
+ },
+ "Bake to one material": {
+  "es": "Hornear a un solo material",
+  "de_DE": "Auf ein Material baken",
+  "fr_FR": "Cuire en un seul matériau",
+  "it_IT": "Bake in un solo materiale",
+  "pt_PT": "Fazer bake para um só material"
+ },
+ "Base {d} cm above the floor": {
+  "es": "Base a {d} cm del suelo",
+  "de_DE": "Basis {d} cm über dem Boden",
+  "fr_FR": "Base à {d} cm du sol",
+  "it_IT": "Base a {d} cm dal pavimento",
+  "pt_PT": "Base a {d} cm do chão"
+ },
+ "Buyers compare the model with your photos.": {
+  "es": "Los compradores comparan el modelo con tus fotos.",
+  "de_DE": "Käufer vergleichen das Modell mit deinen Fotos.",
+  "fr_FR": "Les acheteurs comparent le modèle à vos photos.",
+  "it_IT": "Gli acquirenti confrontano il modello con le tue foto.",
+  "pt_PT": "Os compradores comparam o modelo com as tuas fotos."
+ },
+ "Centre the base on the world origin": {
+  "es": "Centra la base en el origen del mundo",
+  "de_DE": "Basis am Weltursprung zentrieren",
+  "fr_FR": "Centrer la base sur l'origine du monde",
+  "it_IT": "Centra la base sull'origine del mondo",
+  "pt_PT": "Centrar a base na origem do mundo"
+ },
+ "Centre {d} cm off": {
+  "es": "Descentrado {d} cm",
+  "de_DE": "{d} cm außermittig",
+  "fr_FR": "Décentré de {d} cm",
+  "it_IT": "Fuori centro di {d} cm",
+  "pt_PT": "Descentrado {d} cm"
+ },
+ "Check model": {
+  "es": "Comprobar modelo",
+  "de_DE": "Modell prüfen",
+  "fr_FR": "Vérifier le modèle",
+  "it_IT": "Controlla modello",
+  "pt_PT": "Verificar modelo"
+ },
+ "Check the product against the store's rules. Your scene is not changed": {
+  "es": "Comprueba el producto con las reglas de la tienda. Tu escena no se modifica",
+  "de_DE": "Prüft das Produkt anhand der Shop-Regeln. Deine Szene bleibt unverändert",
+  "fr_FR": "Vérifie le produit selon les règles de la boutique. Votre scène n'est pas modifiée",
+  "it_IT": "Controlla il prodotto con le regole del negozio. La tua scena non viene modificata",
+  "pt_PT": "Verifica o produto com as regras da loja. A tua cena não é alterada"
+ },
+ "Clean edges": {
+  "es": "Bordes limpios",
+  "de_DE": "Saubere Kanten",
+  "fr_FR": "Arêtes propres",
+  "it_IT": "Bordi puliti",
+  "pt_PT": "Arestas limpas"
+ },
+ "Colours match the product photos": {
+  "es": "Los colores coinciden con las fotos del producto",
+  "de_DE": "Farben passen zu den Produktfotos",
+  "fr_FR": "Les couleurs correspondent aux photos du produit",
+  "it_IT": "I colori corrispondono alle foto del prodotto",
+  "pt_PT": "As cores coincidem com as fotos do produto"
+ },
+ "D": {
+  "es": "Fo",
+  "de_DE": "T",
+  "fr_FR": "P",
+  "it_IT": "P",
+  "pt_PT": "P"
+ },
+ "Done": {
+  "es": "Hecho",
+  "de_DE": "Fertig",
+  "fr_FR": "Terminé",
+  "it_IT": "Fatto",
+  "pt_PT": "Concluído"
+ },
+ "Double-sided materials cost render time and can hide errors.": {
+  "es": "Los materiales de doble cara aumentan el tiempo de render y pueden ocultar errores.",
+  "de_DE": "Doppelseitige Materialien kosten Renderzeit und können Fehler verdecken.",
+  "fr_FR": "Les matériaux double face augmentent le temps de rendu et peuvent masquer des erreurs.",
+  "it_IT": "I materiali a doppia faccia aumentano il tempo di render e possono nascondere errori.",
+  "pt_PT": "Os materiais de dupla face aumentam o tempo de renderização e podem esconder erros."
+ },
+ "Draco compression": {
+  "es": "Compresión Draco",
+  "de_DE": "Draco-Komprimierung",
+  "fr_FR": "Compression Draco",
+  "it_IT": "Compressione Draco",
+  "pt_PT": "Compressão Draco"
+ },
+ "Draco makes mesh data much smaller to download.": {
+  "es": "Draco reduce mucho el tamaño de los datos de la malla al descargarla.",
+  "de_DE": "Draco macht Mesh-Daten beim Download deutlich kleiner.",
+  "fr_FR": "Draco réduit nettement la taille des données du maillage à télécharger.",
+  "it_IT": "Draco riduce molto le dimensioni dei dati della mesh da scaricare.",
+  "pt_PT": "O Draco reduz muito o tamanho dos dados da malha a descarregar."
+ },
+ "Edges bevelled": {
+  "es": "Bordes biselados",
+  "de_DE": "Kanten abgeschrägt",
+  "fr_FR": "Arêtes biseautées",
+  "it_IT": "Bordi smussati",
+  "pt_PT": "Arestas chanfradas"
+ },
+ "Enter the real size to check scale": {
+  "es": "Introduce el tamaño real para comprobar la escala",
+  "de_DE": "Echte Größe eingeben, um den Maßstab zu prüfen",
+  "fr_FR": "Saisissez la taille réelle pour vérifier l'échelle",
+  "it_IT": "Inserisci la dimensione reale per controllare la scala",
+  "pt_PT": "Introduz o tamanho real para verificar a escala"
+ },
+ "Every material needs base colour and metallic-roughness.": {
+  "es": "Cada material necesita color base y metálico-rugosidad.",
+  "de_DE": "Jedes Material braucht Basisfarbe und Metallic-Roughness.",
+  "fr_FR": "Chaque matériau a besoin d'une couleur de base et de metallic-roughness.",
+  "it_IT": "Ogni materiale richiede colore base e metallic-roughness.",
+  "pt_PT": "Cada material precisa de cor base e metallic-roughness."
+ },
+ "Everything in the active collection is the product": {
+  "es": "Todo lo de la colección activa es el producto",
+  "de_DE": "Alles in der aktiven Collection ist das Produkt",
+  "fr_FR": "Tout ce qui est dans la collection active est le produit",
+  "it_IT": "Tutto ciò che è nella collezione attiva è il prodotto",
+  "pt_PT": "Tudo na coleção ativa é o produto"
+ },
+ "Everything in the scene is the product": {
+  "es": "Todo lo de la escena es el producto",
+  "de_DE": "Alles in der Szene ist das Produkt",
+  "fr_FR": "Tout ce qui est dans la scène est le produit",
+  "it_IT": "Tutto ciò che è nella scena è il prodotto",
+  "pt_PT": "Tudo na cena é o produto"
+ },
+ "Extra UV maps add weight and can confuse the exporter.": {
+  "es": "Los mapas UV extra añaden peso y pueden confundir al exportador.",
+  "de_DE": "Zusätzliche UV-Maps erhöhen das Gewicht und können den Exporter verwirren.",
+  "fr_FR": "Les cartes UV supplémentaires alourdissent le fichier et peuvent perturber l'exportateur.",
+  "it_IT": "Mappe UV extra aumentano il peso e possono confondere l'esportatore.",
+  "pt_PT": "Mapas UV extra aumentam o peso e podem confundir o exportador."
+ },
+ "Faces on top of each other flicker in the viewer.": {
+  "es": "Las caras superpuestas parpadean en el visor.",
+  "de_DE": "Übereinanderliegende Flächen flackern im Viewer.",
+  "fr_FR": "Les faces superposées scintillent dans la visionneuse.",
+  "it_IT": "Le facce sovrapposte sfarfallano nel visualizzatore.",
+  "pt_PT": "As faces sobrepostas cintilam no visualizador."
+ },
+ "Faces share the same texture space": {
+  "es": "Las caras comparten el mismo espacio de textura",
+  "de_DE": "Flächen teilen sich denselben Texturraum",
+  "fr_FR": "Les faces partagent le même espace de texture",
+  "it_IT": "Le facce condividono lo stesso spazio texture",
+  "pt_PT": "As faces partilham o mesmo espaço de textura"
+ },
+ "Faces with 5 or more sides": {
+  "es": "Caras de 5 o más lados",
+  "de_DE": "Flächen mit 5 oder mehr Seiten",
+  "fr_FR": "Faces à 5 côtés ou plus",
+  "it_IT": "Facce con 5 o più lati",
+  "pt_PT": "Faces com 5 ou mais lados"
+ },
+ "Faces with UVs outside the 0–1 square": {
+  "es": "Caras con UV fuera del cuadrado 0–1",
+  "de_DE": "Flächen mit UVs außerhalb des 0–1-Quadrats",
+  "fr_FR": "Faces avec UV hors du carré 0–1",
+  "it_IT": "Facce con UV fuori dal quadrato 0–1",
+  "pt_PT": "Faces com UV fora do quadrado 0–1"
+ },
+ "Faces with more than 4 sides can render badly once triangulated.": {
+  "es": "Las caras de más de 4 lados pueden verse mal al triangularse.",
+  "de_DE": "Flächen mit mehr als 4 Seiten können nach der Triangulation schlecht gerendert werden.",
+  "fr_FR": "Les faces de plus de 4 côtés peuvent mal s'afficher une fois triangulées.",
+  "it_IT": "Le facce con più di 4 lati possono renderizzarsi male dopo la triangolazione.",
+  "pt_PT": "Faces com mais de 4 lados podem ficar mal depois de trianguladas."
+ },
+ "Faces with no area cause shading errors.": {
+  "es": "Las caras sin área causan errores de sombreado.",
+  "de_DE": "Flächen ohne Fläche verursachen Shading-Fehler.",
+  "fr_FR": "Les faces sans surface causent des erreurs d'ombrage.",
+  "it_IT": "Le facce senza area causano errori di shading.",
+  "pt_PT": "Faces sem área causam erros de sombreamento."
+ },
+ "Fail": {
+  "es": "Error",
+  "de_DE": "Fehler",
+  "fr_FR": "Échec",
+  "it_IT": "Errore",
+  "pt_PT": "Falha"
+ },
+ "File format": {
+  "es": "Formato de archivo",
+  "de_DE": "Dateiformat",
+  "fr_FR": "Format de fichier",
+  "it_IT": "Formato file",
+  "pt_PT": "Formato do ficheiro"
+ },
+ "File size": {
+  "es": "Tamaño de archivo",
+  "de_DE": "Dateigröße",
+  "fr_FR": "Taille du fichier",
+  "it_IT": "Dimensione file",
+  "pt_PT": "Tamanho do ficheiro"
+ },
+ "Floor products should stand on the ground, centred. Wall and ceiling products differ.": {
+  "es": "Los productos de suelo deben apoyarse en el suelo, centrados. Los de pared y techo son distintos.",
+  "de_DE": "Bodenprodukte sollten zentriert auf dem Boden stehen. Wand- und Deckenprodukte sind anders.",
+  "fr_FR": "Les produits au sol doivent reposer sur le sol, centrés. Ceux au mur et au plafond sont différents.",
+  "it_IT": "I prodotti da pavimento devono poggiare a terra, centrati. Quelli da parete e soffitto sono diversi.",
+  "pt_PT": "Os produtos de chão devem estar apoiados no chão, centrados. Os de parede e teto são diferentes."
+ },
+ "Found: {names}": {
+  "es": "Encontrado: {names}",
+  "de_DE": "Gefunden: {names}",
+  "fr_FR": "Trouvé : {names}",
+  "it_IT": "Trovato: {names}",
+  "pt_PT": "Encontrado: {names}"
+ },
+ "GLB is one file with everything inside, the easiest to host.": {
+  "es": "GLB es un solo archivo con todo dentro, el más fácil de alojar.",
+  "de_DE": "GLB ist eine einzelne Datei mit allem darin, am einfachsten zu hosten.",
+  "fr_FR": "Le GLB est un fichier unique qui contient tout, le plus simple à héberger.",
+  "it_IT": "GLB è un unico file con tutto dentro, il più facile da ospitare.",
+  "pt_PT": "O GLB é um só ficheiro com tudo lá dentro, o mais fácil de alojar."
+ },
+ "H": {
+  "es": "Al",
+  "de_DE": "H",
+  "fr_FR": "H",
+  "it_IT": "A",
+  "pt_PT": "A"
+ },
+ "Info": {
+  "es": "Info",
+  "de_DE": "Info",
+  "fr_FR": "Info",
+  "it_IT": "Info",
+  "pt_PT": "Info"
+ },
+ "Inverted normals make faces look missing or black.": {
+  "es": "Las normales invertidas hacen que las caras parezcan faltar o verse negras.",
+  "de_DE": "Invertierte Normalen lassen Flächen fehlen oder schwarz aussehen.",
+  "fr_FR": "Les normales inversées font paraître les faces manquantes ou noires.",
+  "it_IT": "Le normali invertite fanno sembrare le facce mancanti o nere.",
+  "pt_PT": "As normais invertidas fazem as faces parecer em falta ou pretas."
+ },
+ "JPG": {
+  "es": "JPG",
+  "de_DE": "JPG",
+  "fr_FR": "JPG",
+  "it_IT": "JPG",
+  "pt_PT": "JPG"
+ },
+ "JPG keeps colour maps small; PNG is only needed for transparency.": {
+  "es": "JPG mantiene pequeños los mapas de color; PNG solo hace falta para la transparencia.",
+  "de_DE": "JPG hält Farbtexturen klein; PNG braucht man nur für Transparenz.",
+  "fr_FR": "Le JPG garde les cartes de couleur légères ; le PNG n'est utile que pour la transparence.",
+  "it_IT": "JPG mantiene piccole le mappe colore; il PNG serve solo per la trasparenza.",
+  "pt_PT": "O JPG mantém pequenos os mapas de cor; o PNG só é preciso para transparência."
+ },
+ "JPG, PNG with alpha": {
+  "es": "JPG, PNG con alfa",
+  "de_DE": "JPG, PNG mit Alpha",
+  "fr_FR": "JPG, PNG avec alpha",
+  "it_IT": "JPG, PNG con alfa",
+  "pt_PT": "JPG, PNG com alfa"
+ },
+ "Join the meshes into one object": {
+  "es": "Unir las mallas en un solo objeto",
+  "de_DE": "Meshes zu einem Objekt verbinden",
+  "fr_FR": "Joindre les maillages en un seul objet",
+  "it_IT": "Unisci le mesh in un solo oggetto",
+  "pt_PT": "Juntar as malhas num só objeto"
+ },
+ "Larger than advised": {
+  "es": "Mayor de lo aconsejado",
+  "de_DE": "Größer als empfohlen",
+  "fr_FR": "Plus grand que conseillé",
+  "it_IT": "Più grande del consigliato",
+  "pt_PT": "Maior do que o aconselhado"
+ },
+ "More than one UV map": {
+  "es": "Más de un mapa UV",
+  "de_DE": "Mehr als eine UV-Map",
+  "fr_FR": "Plus d'une carte UV",
+  "it_IT": "Più di una mappa UV",
+  "pt_PT": "Mais de um mapa UV"
+ },
+ "Move the base to the world origin": {
+  "es": "Mover la base al origen del mundo",
+  "de_DE": "Basis zum Weltursprung verschieben",
+  "fr_FR": "Déplacer la base à l'origine du monde",
+  "it_IT": "Sposta la base sull'origine del mondo",
+  "pt_PT": "Mover a base para a origem do mundo"
+ },
+ "No UV map: unwrap the model": {
+  "es": "Sin mapa UV: desenvuelve el modelo",
+  "de_DE": "Keine UV-Map: Modell entfalten",
+  "fr_FR": "Pas de carte UV : dépliez le modèle",
+  "it_IT": "Nessuna mappa UV: srotola il modello",
+  "pt_PT": "Sem mapa UV: desdobra o modelo"
+ },
+ "No animation": {
+  "es": "Sin animación",
+  "de_DE": "Keine Animation",
+  "fr_FR": "Pas d'animation",
+  "it_IT": "Nessuna animazione",
+  "pt_PT": "Sem animação"
+ },
+ "No cameras": {
+  "es": "Sin cámaras",
+  "de_DE": "Keine Kameras",
+  "fr_FR": "Pas de caméras",
+  "it_IT": "Nessuna camera",
+  "pt_PT": "Sem câmaras"
+ },
+ "No extras": {
+  "es": "Sin extras",
+  "de_DE": "Keine Extras",
+  "fr_FR": "Pas d'extras",
+  "it_IT": "Nessun extra",
+  "pt_PT": "Sem extras"
+ },
+ "No lights": {
+  "es": "Sin luces",
+  "de_DE": "Keine Lichter",
+  "fr_FR": "Pas de lumières",
+  "it_IT": "Nessuna luce",
+  "pt_PT": "Sem luzes"
+ },
+ "No material": {
+  "es": "Sin material",
+  "de_DE": "Kein Material",
+  "fr_FR": "Pas de matériau",
+  "it_IT": "Nessun materiale",
+  "pt_PT": "Sem material"
+ },
+ "No modifiers": {
+  "es": "Sin modificadores",
+  "de_DE": "Keine Modifikatoren",
+  "fr_FR": "Pas de modificateurs",
+  "it_IT": "Nessun modificatore",
+  "pt_PT": "Sem modificadores"
+ },
+ "No n-gons": {
+  "es": "Sin n-gons",
+  "de_DE": "Keine N-Gons",
+  "fr_FR": "Pas de n-gons",
+  "it_IT": "Nessun n-gon",
+  "pt_PT": "Sem n-gons"
+ },
+ "No overlapping UVs": {
+  "es": "Sin UV superpuestos",
+  "de_DE": "Keine überlappenden UVs",
+  "fr_FR": "Pas d'UV superposés",
+  "it_IT": "Nessuna UV sovrapposta",
+  "pt_PT": "Sem UV sobrepostos"
+ },
+ "No textures": {
+  "es": "Sin texturas",
+  "de_DE": "Keine Texturen",
+  "fr_FR": "Pas de textures",
+  "it_IT": "Nessuna texture",
+  "pt_PT": "Sem texturas"
+ },
+ "No visible Z-fighting": {
+  "es": "Sin z-fighting visible",
+  "de_DE": "Kein sichtbares Z-Fighting",
+  "fr_FR": "Pas de z-fighting visible",
+  "it_IT": "Nessuno z-fighting visibile",
+  "pt_PT": "Sem z-fighting visível"
+ },
+ "No zero-area faces": {
+  "es": "Sin caras de área cero",
+  "de_DE": "Keine Flächen ohne Fläche",
+  "fr_FR": "Pas de faces d'aire nulle",
+  "it_IT": "Nessuna faccia ad area zero",
+  "pt_PT": "Sem faces de área zero"
+ },
+ "Normals face outward": {
+  "es": "Normales hacia fuera",
+  "de_DE": "Normalen zeigen nach außen",
+  "fr_FR": "Normales vers l'extérieur",
+  "it_IT": "Normali verso l'esterno",
+  "pt_PT": "Normais voltadas para fora"
+ },
+ "Not a Principled BSDF: {names}": {
+  "es": "No es Principled BSDF: {names}",
+  "de_DE": "Kein Principled BSDF: {names}",
+  "fr_FR": "Pas un Principled BSDF : {names}",
+  "it_IT": "Non è un Principled BSDF: {names}",
+  "pt_PT": "Não é Principled BSDF: {names}"
+ },
+ "Not allowed: {ext}. Reset those material settings to default.": {
+  "es": "No permitido: {ext}. Restablece esos ajustes del material a los valores por defecto.",
+  "de_DE": "Nicht erlaubt: {ext}. Setze diese Materialeinstellungen auf die Standardwerte zurück.",
+  "fr_FR": "Non autorisé : {ext}. Rétablissez ces réglages du matériau par défaut.",
+  "it_IT": "Non consentito: {ext}. Ripristina quelle impostazioni del materiale ai valori predefiniti.",
+  "pt_PT": "Não permitido: {ext}. Repõe essas definições do material para os valores predefinidos."
+ },
+ "Not found in this scene any more": {
+  "es": "Ya no está en esta escena",
+  "de_DE": "Nicht mehr in dieser Szene vorhanden",
+  "fr_FR": "Introuvable dans cette scène",
+  "it_IT": "Non più presente in questa scena",
+  "pt_PT": "Já não existe nesta cena"
+ },
+ "Occlusion, roughness and metalness are separate images": {
+  "es": "Oclusión, rugosidad y metalicidad son imágenes separadas",
+  "de_DE": "Okklusion, Roughness und Metalness sind getrennte Bilder",
+  "fr_FR": "L'occlusion, la rugosité et la métallicité sont des images séparées",
+  "it_IT": "Occlusione, roughness e metalness sono immagini separate",
+  "pt_PT": "Oclusão, rugosidade e metalicidade são imagens separadas"
+ },
+ "Occlusion, roughness and metalness in one image saves file size.": {
+  "es": "Oclusión, rugosidad y metalicidad en una sola imagen reduce el tamaño del archivo.",
+  "de_DE": "Okklusion, Roughness und Metalness in einem Bild sparen Dateigröße.",
+  "fr_FR": "L'occlusion, la rugosité et la métallicité dans une seule image allègent le fichier.",
+  "it_IT": "Occlusione, roughness e metalness in una sola immagine riducono le dimensioni del file.",
+  "pt_PT": "Oclusão, rugosidade e metalicidade numa só imagem poupam tamanho de ficheiro."
+ },
+ "Off": {
+  "es": "Desactivado",
+  "de_DE": "Aus",
+  "fr_FR": "Désactivé",
+  "it_IT": "Disattivato",
+  "pt_PT": "Desativado"
+ },
+ "On": {
+  "es": "Activado",
+  "de_DE": "Ein",
+  "fr_FR": "Activé",
+  "it_IT": "Attivato",
+  "pt_PT": "Ativado"
+ },
+ "On the floor, centred": {
+  "es": "En el suelo, centrado",
+  "de_DE": "Auf dem Boden, zentriert",
+  "fr_FR": "Au sol, centré",
+  "it_IT": "A terra, centrato",
+  "pt_PT": "No chão, centrado"
+ },
+ "One UV map": {
+  "es": "Un mapa UV",
+  "de_DE": "Eine UV-Map",
+  "fr_FR": "Une carte UV",
+  "it_IT": "Una mappa UV",
+  "pt_PT": "Um mapa UV"
+ },
+ "One material": {
+  "es": "Un material",
+  "de_DE": "Ein Material",
+  "fr_FR": "Un matériau",
+  "it_IT": "Un materiale",
+  "pt_PT": "Um material"
+ },
+ "One material means fewer draw calls and a smaller file.": {
+  "es": "Un solo material significa menos llamadas de dibujado y un archivo más pequeño.",
+  "de_DE": "Ein Material bedeutet weniger Draw Calls und eine kleinere Datei.",
+  "fr_FR": "Un seul matériau signifie moins d'appels de rendu et un fichier plus léger.",
+  "it_IT": "Un solo materiale significa meno draw call e un file più piccolo.",
+  "pt_PT": "Um só material significa menos draw calls e um ficheiro mais pequeno."
+ },
+ "One material means fewer draw calls.": {
+  "es": "Un solo material significa menos llamadas de dibujado.",
+  "de_DE": "Ein Material bedeutet weniger Draw Calls.",
+  "fr_FR": "Un seul matériau signifie moins d'appels de rendu.",
+  "it_IT": "Un solo materiale significa meno draw call.",
+  "pt_PT": "Um só material significa menos draw calls."
+ },
+ "One mesh": {
+  "es": "Una malla",
+  "de_DE": "Ein Mesh",
+  "fr_FR": "Un maillage",
+  "it_IT": "Una mesh",
+  "pt_PT": "Uma malha"
+ },
+ "One object keeps the model simple to load and to check.": {
+  "es": "Un solo objeto hace que el modelo sea más fácil de cargar y de comprobar.",
+  "de_DE": "Ein Objekt hält das Modell einfach zu laden und zu prüfen.",
+  "fr_FR": "Un seul objet simplifie le chargement et la vérification du modèle.",
+  "it_IT": "Un solo oggetto rende il modello più semplice da caricare e controllare.",
+  "pt_PT": "Um só objeto torna o modelo simples de carregar e verificar."
+ },
+ "Open or tangled edges show as holes or dark seams.": {
+  "es": "Los bordes abiertos o enredados se ven como agujeros o costuras oscuras.",
+  "de_DE": "Offene oder verworrene Kanten erscheinen als Löcher oder dunkle Nähte.",
+  "fr_FR": "Les arêtes ouvertes ou emmêlées apparaissent comme des trous ou des coutures sombres.",
+  "it_IT": "I bordi aperti o intrecciati appaiono come buchi o cuciture scure.",
+  "pt_PT": "Arestas abertas ou emaranhadas aparecem como buracos ou costuras escuras."
+ },
+ "Open or tangled edges: close holes and merge loose points": {
+  "es": "Bordes abiertos o enredados: cierra los huecos y fusiona los puntos sueltos",
+  "de_DE": "Offene oder verworrene Kanten: Löcher schließen und lose Punkte verschmelzen",
+  "fr_FR": "Arêtes ouvertes ou emmêlées : fermez les trous et fusionnez les points isolés",
+  "it_IT": "Bordi aperti o intrecciati: chiudi i buchi e unisci i punti sciolti",
+  "pt_PT": "Arestas abertas ou emaranhadas: fecha os buracos e funde os pontos soltos"
+ },
+ "Opens the store's own page for this rule": {
+  "es": "Abre la página de la propia tienda para esta regla",
+  "de_DE": "Öffnet die Seite des Shops zu dieser Regel",
+  "fr_FR": "Ouvre la page de la boutique pour cette règle",
+  "it_IT": "Apre la pagina del negozio per questa regola",
+  "pt_PT": "Abre a página da própria loja para esta regra"
+ },
+ "Optional. Needed to check scale": {
+  "es": "Opcional. Necesario para comprobar la escala",
+  "de_DE": "Optional. Nötig, um den Maßstab zu prüfen",
+  "fr_FR": "Facultatif. Nécessaire pour vérifier l'échelle",
+  "it_IT": "Facoltativo. Necessario per controllare la scala",
+  "pt_PT": "Opcional. Necessário para verificar a escala"
+ },
+ "Origin at the base": {
+  "es": "Origen en la base",
+  "de_DE": "Ursprung an der Basis",
+  "fr_FR": "Origine à la base",
+  "it_IT": "Origine alla base",
+  "pt_PT": "Origem na base"
+ },
+ "Over the target; loads slower": {
+  "es": "Por encima del objetivo; carga más lento",
+  "de_DE": "Über dem Ziel; lädt langsamer",
+  "fr_FR": "Au-dessus de l'objectif ; chargement plus lent",
+  "it_IT": "Sopra l'obiettivo; si carica più lentamente",
+  "pt_PT": "Acima do objetivo; carrega mais devagar"
+ },
+ "Overlapping UVs share pixels and can break baked detail.": {
+  "es": "Los UV superpuestos comparten píxeles y pueden estropear el detalle horneado.",
+  "de_DE": "Überlappende UVs teilen sich Pixel und können gebackene Details zerstören.",
+  "fr_FR": "Des UV superposés partagent les pixels et peuvent abîmer le détail cuit.",
+  "it_IT": "Le UV sovrapposte condividono i pixel e possono rovinare i dettagli bakerati.",
+  "pt_PT": "UV sobrepostos partilham píxeis e podem estragar o detalhe bakeado."
+ },
+ "PBR material": {
+  "es": "Material PBR",
+  "de_DE": "PBR-Material",
+  "fr_FR": "Matériau PBR",
+  "it_IT": "Materiale PBR",
+  "pt_PT": "Material PBR"
+ },
+ "PNG": {
+  "es": "PNG",
+  "de_DE": "PNG",
+  "fr_FR": "PNG",
+  "it_IT": "PNG",
+  "pt_PT": "PNG"
+ },
+ "PNG, JPG": {
+  "es": "PNG, JPG",
+  "de_DE": "PNG, JPG",
+  "fr_FR": "PNG, JPG",
+  "it_IT": "PNG, JPG",
+  "pt_PT": "PNG, JPG"
+ },
+ "Packed ORM texture": {
+  "es": "Textura ORM empaquetada",
+  "de_DE": "Gepackte ORM-Textur",
+  "fr_FR": "Texture ORM empaquetée",
+  "it_IT": "Texture ORM impacchettata",
+  "pt_PT": "Textura ORM empacotada"
+ },
+ "Packed or not used": {
+  "es": "Empaquetada o sin usar",
+  "de_DE": "Gepackt oder nicht verwendet",
+  "fr_FR": "Empaquetée ou inutilisée",
+  "it_IT": "Impacchettata o non usata",
+  "pt_PT": "Empacotada ou não usada"
+ },
+ "Pages load fast when models stay under 5 MB.": {
+  "es": "Las páginas cargan rápido si los modelos pesan menos de 5 MB.",
+  "de_DE": "Seiten laden schnell, wenn Modelle unter 5 MB bleiben.",
+  "fr_FR": "Les pages se chargent vite quand les modèles pèsent moins de 5 Mo.",
+  "it_IT": "Le pagine si caricano in fretta se i modelli restano sotto i 5 MB.",
+  "pt_PT": "As páginas carregam depressa quando os modelos ficam abaixo de 5 MB."
+ },
+ "Pass": {
+  "es": "Correcto",
+  "de_DE": "Bestanden",
+  "fr_FR": "Réussi",
+  "it_IT": "Superato",
+  "pt_PT": "Aprovado"
+ },
+ "Placement": {
+  "es": "Colocación",
+  "de_DE": "Platzierung",
+  "fr_FR": "Placement",
+  "it_IT": "Posizionamento",
+  "pt_PT": "Posicionamento"
+ },
+ "Press Check model to see what the store will say": {
+  "es": "Pulsa Comprobar modelo para ver qué dirá la tienda",
+  "de_DE": "Klicke auf Modell prüfen, um zu sehen, was der Shop sagt",
+  "fr_FR": "Cliquez sur Vérifier le modèle pour voir ce que dira la boutique",
+  "it_IT": "Premi Controlla modello per vedere cosa dirà il negozio",
+  "pt_PT": "Carrega em Verificar modelo para ver o que a loja vai dizer"
+ },
+ "Principled BSDF": {
+  "es": "Principled BSDF",
+  "de_DE": "Principled BSDF",
+  "fr_FR": "Principled BSDF",
+  "it_IT": "Principled BSDF",
+  "pt_PT": "Principled BSDF"
+ },
+ "Procedural nodes don't export; only image textures reach the store.": {
+  "es": "Los nodos procedurales no se exportan; solo las texturas de imagen llegan a la tienda.",
+  "de_DE": "Prozedurale Nodes werden nicht exportiert; nur Bildtexturen erreichen den Shop.",
+  "fr_FR": "Les nœuds procéduraux ne s'exportent pas ; seules les textures d'image arrivent à la boutique.",
+  "it_IT": "I nodi procedurali non vengono esportati; solo le texture immagine arrivano al negozio.",
+  "pt_PT": "Os nós procedurais não são exportados; só as texturas de imagem chegam à loja."
+ },
+ "Product": {
+  "es": "Producto",
+  "de_DE": "Produkt",
+  "fr_FR": "Produit",
+  "it_IT": "Prodotto",
+  "pt_PT": "Produto"
+ },
+ "Read the store profiles again from disk": {
+  "es": "Volver a leer los perfiles de tienda desde el disco",
+  "de_DE": "Shop-Profile erneut von der Festplatte lesen",
+  "fr_FR": "Relire les profils de boutique depuis le disque",
+  "it_IT": "Rileggi i profili dei negozi dal disco",
+  "pt_PT": "Voltar a ler os perfis de loja a partir do disco"
+ },
+ "Ready for {store}": {
+  "es": "Listo para {store}",
+  "de_DE": "Bereit für {store}",
+  "fr_FR": "Prêt pour {store}",
+  "it_IT": "Pronto per {store}",
+  "pt_PT": "Pronto para {store}"
+ },
+ "Ready for {store}, with warnings": {
+  "es": "Listo para {store}, con avisos",
+  "de_DE": "Bereit für {store}, mit Warnungen",
+  "fr_FR": "Prêt pour {store}, avec avertissements",
+  "it_IT": "Pronto per {store}, con avvisi",
+  "pt_PT": "Pronto para {store}, com avisos"
+ },
+ "Real depth in cm, front to back (optional)": {
+  "es": "Profundidad real en cm, de delante atrás (opcional)",
+  "de_DE": "Echte Tiefe in cm, von vorn nach hinten (optional)",
+  "fr_FR": "Profondeur réelle en cm, de l'avant à l'arrière (facultatif)",
+  "it_IT": "Profondità reale in cm, dal fronte al retro (facoltativo)",
+  "pt_PT": "Profundidade real em cm, da frente para trás (opcional)"
+ },
+ "Real height in cm (optional)": {
+  "es": "Altura real en cm (opcional)",
+  "de_DE": "Echte Höhe in cm (optional)",
+  "fr_FR": "Hauteur réelle en cm (facultatif)",
+  "it_IT": "Altezza reale in cm (facoltativo)",
+  "pt_PT": "Altura real em cm (opcional)"
+ },
+ "Real width in cm, left to right (optional)": {
+  "es": "Ancho real en cm, de izquierda a derecha (opcional)",
+  "de_DE": "Echte Breite in cm, von links nach rechts (optional)",
+  "fr_FR": "Largeur réelle en cm, de gauche à droite (facultatif)",
+  "it_IT": "Larghezza reale in cm, da sinistra a destra (facoltativo)",
+  "pt_PT": "Largura real em cm, da esquerda para a direita (opcional)"
+ },
+ "Real-world size": {
+  "es": "Tamaño real",
+  "de_DE": "Reale Größe",
+  "fr_FR": "Taille réelle",
+  "it_IT": "Dimensioni reali",
+  "pt_PT": "Tamanho real"
+ },
+ "Reduce to {max} or fewer. Optional decimation is off by default, because it can damage shape": {
+  "es": "Reduce a {max} o menos. La decimación opcional está desactivada por defecto porque puede dañar la forma",
+  "de_DE": "Auf {max} oder weniger reduzieren. Optionale Dezimierung ist standardmäßig aus, weil sie die Form beschädigen kann",
+  "fr_FR": "Réduisez à {max} ou moins. La décimation facultative est désactivée par défaut, car elle peut abîmer la forme",
+  "it_IT": "Riduci a {max} o meno. La decimazione facoltativa è disattivata di default perché può danneggiare la forma",
+  "pt_PT": "Reduz para {max} ou menos. A decimação opcional está desligada por predefinição, porque pode estragar a forma"
+ },
+ "Reload profiles": {
+  "es": "Recargar perfiles",
+  "de_DE": "Profile neu laden",
+  "fr_FR": "Recharger les profils",
+  "it_IT": "Ricarica profili",
+  "pt_PT": "Recarregar perfis"
+ },
+ "Results": {
+  "es": "Resultados",
+  "de_DE": "Ergebnisse",
+  "fr_FR": "Résultats",
+  "it_IT": "Risultati",
+  "pt_PT": "Resultados"
+ },
+ "Rotation or scale not applied": {
+  "es": "Rotación o escala sin aplicar",
+  "de_DE": "Rotation oder Skalierung nicht angewendet",
+  "fr_FR": "Rotation ou échelle non appliquée",
+  "it_IT": "Rotazione o scala non applicata",
+  "pt_PT": "Rotação ou escala não aplicada"
+ },
+ "Rule source": {
+  "es": "Origen de la regla",
+  "de_DE": "Quelle der Regel",
+  "fr_FR": "Source de la règle",
+  "it_IT": "Fonte della regola",
+  "pt_PT": "Origem da regra"
+ },
+ "Rules checked {date}": {
+  "es": "Reglas comprobadas el {date}",
+  "de_DE": "Regeln geprüft am {date}",
+  "fr_FR": "Règles vérifiées le {date}",
+  "it_IT": "Regole controllate il {date}",
+  "pt_PT": "Regras verificadas em {date}"
+ },
+ "Run the Khronos glTF Validator": {
+  "es": "Ejecutar el validador glTF de Khronos",
+  "de_DE": "Khronos glTF Validator ausführen",
+  "fr_FR": "Lancer le validateur glTF de Khronos",
+  "it_IT": "Esegui il Khronos glTF Validator",
+  "pt_PT": "Executar o validador glTF da Khronos"
+ },
+ "Seams in hidden places keep textures clean.": {
+  "es": "Las costuras en zonas ocultas mantienen limpias las texturas.",
+  "de_DE": "Nähte an versteckten Stellen halten Texturen sauber.",
+  "fr_FR": "Des coutures dans des zones cachées gardent les textures propres.",
+  "it_IT": "Le cuciture in zone nascoste mantengono pulite le texture.",
+  "pt_PT": "Costuras em zonas escondidas mantêm as texturas limpas."
+ },
+ "Select": {
+  "es": "Seleccionar",
+  "de_DE": "Auswählen",
+  "fr_FR": "Sélectionner",
+  "it_IT": "Seleziona",
+  "pt_PT": "Selecionar"
+ },
+ "Select what this line is about and frame it in the view": {
+  "es": "Selecciona de qué trata esta línea y encuádralo en la vista",
+  "de_DE": "Wähle aus, worum es in dieser Zeile geht, und zeige es in der Ansicht",
+  "fr_FR": "Sélectionnez l'objet de cette ligne et cadrez-le dans la vue",
+  "it_IT": "Seleziona l'oggetto di questa riga e inquadralo nella vista",
+  "pt_PT": "Seleciona o assunto desta linha e enquadra-o na vista"
+ },
+ "Selected objects": {
+  "es": "Objetos seleccionados",
+  "de_DE": "Ausgewählte Objekte",
+  "fr_FR": "Objets sélectionnés",
+  "it_IT": "Oggetti selezionati",
+  "pt_PT": "Objetos selecionados"
+ },
+ "Sharp edges look fake in close-up AR views.": {
+  "es": "Los bordes duros parecen falsos en vistas de RA de cerca.",
+  "de_DE": "Scharfe Kanten wirken in AR-Nahansichten unecht.",
+  "fr_FR": "Les arêtes vives paraissent fausses dans les vues RA rapprochées.",
+  "it_IT": "I bordi netti sembrano finti nelle viste AR ravvicinate.",
+  "pt_PT": "Arestas vivas parecem falsas nas vistas de RA de perto."
+ },
+ "Shopify": {
+  "es": "Shopify",
+  "de_DE": "Shopify",
+  "fr_FR": "Shopify",
+  "it_IT": "Shopify",
+  "pt_PT": "Shopify"
+ },
+ "Shopify accepts GLB and USDZ 3D files.": {
+  "es": "Shopify acepta archivos 3D GLB y USDZ.",
+  "de_DE": "Shopify akzeptiert 3D-Dateien als GLB und USDZ.",
+  "fr_FR": "Shopify accepte les fichiers 3D GLB et USDZ.",
+  "it_IT": "Shopify accetta file 3D GLB e USDZ.",
+  "pt_PT": "A Shopify aceita ficheiros 3D GLB e USDZ."
+ },
+ "Show passed": {
+  "es": "Mostrar superados",
+  "de_DE": "Bestandene anzeigen",
+  "fr_FR": "Afficher les réussis",
+  "it_IT": "Mostra superati",
+  "pt_PT": "Mostrar aprovados"
+ },
+ "Show passed ({n})": {
+  "es": "Mostrar superados ({n})",
+  "de_DE": "Bestandene anzeigen ({n})",
+  "fr_FR": "Afficher les réussis ({n})",
+  "it_IT": "Mostra superati ({n})",
+  "pt_PT": "Mostrar aprovados ({n})"
+ },
+ "Single-sided materials": {
+  "es": "Materiales de una cara",
+  "de_DE": "Einseitige Materialien",
+  "fr_FR": "Matériaux simple face",
+  "it_IT": "Materiali a singola faccia",
+  "pt_PT": "Materiais de face única"
+ },
+ "Size looks wrong. Enter the real size to check scale": {
+  "es": "El tamaño parece incorrecto. Introduce el tamaño real para comprobar la escala",
+  "de_DE": "Größe wirkt falsch. Echte Größe eingeben, um den Maßstab zu prüfen",
+  "fr_FR": "La taille semble incorrecte. Saisissez la taille réelle pour vérifier l'échelle",
+  "it_IT": "Le dimensioni sembrano errate. Inserisci la dimensione reale per controllare la scala",
+  "pt_PT": "O tamanho parece errado. Introduz o tamanho real para verificar a escala"
+ },
+ "Small files load fast in the store and in AR.": {
+  "es": "Los archivos pequeños cargan rápido en la tienda y en RA.",
+  "de_DE": "Kleine Dateien laden schnell im Shop und in AR.",
+  "fr_FR": "Les petits fichiers se chargent vite dans la boutique et en RA.",
+  "it_IT": "I file piccoli si caricano in fretta nel negozio e in AR.",
+  "pt_PT": "Ficheiros pequenos carregam depressa na loja e em RA."
+ },
+ "Some faces point inward": {
+  "es": "Algunas caras apuntan hacia dentro",
+  "de_DE": "Einige Flächen zeigen nach innen",
+  "fr_FR": "Certaines faces pointent vers l'intérieur",
+  "it_IT": "Alcune facce puntano verso l'interno",
+  "pt_PT": "Algumas faces apontam para dentro"
+ },
+ "Store": {
+  "es": "Tienda",
+  "de_DE": "Shop",
+  "fr_FR": "Boutique",
+  "it_IT": "Negozio",
+  "pt_PT": "Loja"
+ },
+ "Target": {
+  "es": "Objetivo",
+  "de_DE": "Ziel",
+  "fr_FR": "Objectif",
+  "it_IT": "Obiettivo",
+  "pt_PT": "Objetivo"
+ },
+ "Texture format": {
+  "es": "Formato de textura",
+  "de_DE": "Texturformat",
+  "fr_FR": "Format de texture",
+  "it_IT": "Formato texture",
+  "pt_PT": "Formato de textura"
+ },
+ "Texture size": {
+  "es": "Tamaño de textura",
+  "de_DE": "Texturgröße",
+  "fr_FR": "Taille de texture",
+  "it_IT": "Dimensione texture",
+  "pt_PT": "Tamanho de textura"
+ },
+ "Textures must be PNG or JPG inside the file.": {
+  "es": "Las texturas deben ser PNG o JPG dentro del archivo.",
+  "de_DE": "Texturen müssen als PNG oder JPG in der Datei liegen.",
+  "fr_FR": "Les textures doivent être en PNG ou JPG dans le fichier.",
+  "it_IT": "Le texture devono essere PNG o JPG dentro il file.",
+  "pt_PT": "As texturas têm de ser PNG ou JPG dentro do ficheiro."
+ },
+ "Textures over 2048 px make the file heavy without a visible gain.": {
+  "es": "Las texturas de más de 2048 px engordan el archivo sin mejora visible.",
+  "de_DE": "Texturen über 2048 px machen die Datei schwer, ohne sichtbaren Gewinn.",
+  "fr_FR": "Les textures de plus de 2048 px alourdissent le fichier sans gain visible.",
+  "it_IT": "Le texture oltre 2048 px appesantiscono il file senza vantaggi visibili.",
+  "pt_PT": "Texturas acima de 2048 px tornam o ficheiro pesado sem ganho visível."
+ },
+ "Textures over 2048 px slow down phones.": {
+  "es": "Las texturas de más de 2048 px ralentizan los móviles.",
+  "de_DE": "Texturen über 2048 px verlangsamen Smartphones.",
+  "fr_FR": "Les textures de plus de 2048 px ralentissent les téléphones.",
+  "it_IT": "Le texture oltre 2048 px rallentano gli smartphone.",
+  "pt_PT": "Texturas acima de 2048 px abrandam os telemóveis."
+ },
+ "The product must stand on the floor, centred, when shown in AR.": {
+  "es": "El producto debe estar apoyado en el suelo y centrado al mostrarse en RA.",
+  "de_DE": "Das Produkt muss in AR zentriert auf dem Boden stehen.",
+  "fr_FR": "Le produit doit reposer sur le sol, centré, lorsqu'il est affiché en RA.",
+  "it_IT": "Il prodotto deve poggiare a terra, centrato, quando viene mostrato in AR.",
+  "pt_PT": "O produto tem de estar apoiado no chão, centrado, quando mostrado em RA."
+ },
+ "The proportions don't match the real size": {
+  "es": "Las proporciones no coinciden con el tamaño real",
+  "de_DE": "Die Proportionen passen nicht zur echten Größe",
+  "fr_FR": "Les proportions ne correspondent pas à la taille réelle",
+  "it_IT": "Le proporzioni non corrispondono alle dimensioni reali",
+  "pt_PT": "As proporções não coincidem com o tamanho real"
+ },
+ "The selected objects are the product": {
+  "es": "Los objetos seleccionados son el producto",
+  "de_DE": "Die ausgewählten Objekte sind das Produkt",
+  "fr_FR": "Les objets sélectionnés sont le produit",
+  "it_IT": "Gli oggetti selezionati sono il prodotto",
+  "pt_PT": "Os objetos selecionados são o produto"
+ },
+ "Transforms applied": {
+  "es": "Transformaciones aplicadas",
+  "de_DE": "Transformationen angewendet",
+  "fr_FR": "Transformations appliquées",
+  "it_IT": "Trasformazioni applicate",
+  "pt_PT": "Transformações aplicadas"
+ },
+ "Triangles": {
+  "es": "Triángulos",
+  "de_DE": "Dreiecke",
+  "fr_FR": "Triangles",
+  "it_IT": "Triangoli",
+  "pt_PT": "Triângulos"
+ },
+ "Turn on Backface Culling in the material settings": {
+  "es": "Activa el Descarte de caras traseras en los ajustes del material",
+  "de_DE": "Backface Culling in den Materialeinstellungen aktivieren",
+  "fr_FR": "Activez le Backface Culling dans les réglages du matériau",
+  "it_IT": "Attiva il Backface Culling nelle impostazioni del materiale",
+  "pt_PT": "Ativa o Backface Culling nas definições do material"
+ },
+ "Turn on Draco compression in the export": {
+  "es": "Activa la compresión Draco en la exportación",
+  "de_DE": "Draco-Komprimierung beim Export aktivieren",
+  "fr_FR": "Activez la compression Draco dans l'export",
+  "it_IT": "Attiva la compressione Draco nell'esportazione",
+  "pt_PT": "Ativa a compressão Draco na exportação"
+ },
+ "UVs inside 0–1": {
+  "es": "UV dentro de 0–1",
+  "de_DE": "UVs innerhalb 0–1",
+  "fr_FR": "UV dans 0–1",
+  "it_IT": "UV entro 0–1",
+  "pt_PT": "UV dentro de 0–1"
+ },
+ "UVs outside the square repeat or cut the texture.": {
+  "es": "Los UV fuera del cuadrado repiten o cortan la textura.",
+  "de_DE": "UVs außerhalb des Quadrats wiederholen oder beschneiden die Textur.",
+  "fr_FR": "Les UV hors du carré répètent ou coupent la texture.",
+  "it_IT": "Le UV fuori dal quadrato ripetono o tagliano la texture.",
+  "pt_PT": "UV fora do quadrado repetem ou cortam a textura."
+ },
+ "UVs unwrapped by hand with natural seams": {
+  "es": "UV desenvueltos a mano con costuras naturales",
+  "de_DE": "Von Hand entfaltete UVs mit natürlichen Nähten",
+  "fr_FR": "UV dépliés à la main avec des coutures naturelles",
+  "it_IT": "UV srotolate a mano con cuciture naturali",
+  "pt_PT": "UV desdobrados à mão com costuras naturais"
+ },
+ "Unapplied rotation or scale can turn or stretch the model in the store.": {
+  "es": "La rotación o escala sin aplicar puede girar o estirar el modelo en la tienda.",
+  "de_DE": "Nicht angewendete Rotation oder Skalierung kann das Modell im Shop drehen oder strecken.",
+  "fr_FR": "Une rotation ou une échelle non appliquée peut tourner ou étirer le modèle dans la boutique.",
+  "it_IT": "Rotazione o scala non applicate possono ruotare o stirare il modello nel negozio.",
+  "pt_PT": "Rotação ou escala não aplicada pode rodar ou esticar o modelo na loja."
+ },
+ "Viewers place the model on the ground at its origin.": {
+  "es": "Los visores colocan el modelo en el suelo, en su origen.",
+  "de_DE": "Viewer platzieren das Modell am Ursprung auf dem Boden.",
+  "fr_FR": "Les visionneuses posent le modèle au sol, à son origine.",
+  "it_IT": "I visualizzatori posizionano il modello a terra, nella sua origine.",
+  "pt_PT": "Os visualizadores colocam o modelo no chão, na sua origem."
+ },
+ "W": {
+  "es": "An",
+  "de_DE": "B",
+  "fr_FR": "L",
+  "it_IT": "L",
+  "pt_PT": "L"
+ },
+ "Web glTF": {
+  "es": "glTF web",
+  "de_DE": "Web-glTF",
+  "fr_FR": "glTF web",
+  "it_IT": "glTF web",
+  "pt_PT": "glTF web"
+ },
+ "Which store's rules to check against": {
+  "es": "Con qué reglas de tienda comprobar",
+  "de_DE": "Gegen die Regeln welches Shops prüfen",
+  "fr_FR": "Selon les règles de quelle boutique vérifier",
+  "it_IT": "Con le regole di quale negozio controllare",
+  "pt_PT": "Com as regras de que loja verificar"
+ },
+ "Whole scene": {
+  "es": "Toda la escena",
+  "de_DE": "Ganze Szene",
+  "fr_FR": "Scène entière",
+  "it_IT": "Intera scena",
+  "pt_PT": "Cena inteira"
+ },
+ "Won't export: {nodes}": {
+  "es": "No se exportará: {nodes}",
+  "de_DE": "Wird nicht exportiert: {nodes}",
+  "fr_FR": "Ne sera pas exporté : {nodes}",
+  "it_IT": "Non verrà esportato: {nodes}",
+  "pt_PT": "Não será exportado: {nodes}"
+ },
+ "You checked this by eye": {
+  "es": "Esto lo has comprobado a ojo",
+  "de_DE": "Das hast du nach Augenmaß geprüft",
+  "fr_FR": "Vous l'avez vérifié à l'œil",
+  "it_IT": "L'hai controllato a occhio",
+  "pt_PT": "Verificaste isto a olho"
+ },
+ "about {size}": {
+  "es": "unos {size}",
+  "de_DE": "etwa {size}",
+  "fr_FR": "environ {size}",
+  "it_IT": "circa {size}",
+  "pt_PT": "cerca de {size}"
+ },
+ "allowed list": {
+  "es": "lista permitida",
+  "de_DE": "Erlaubtenliste",
+  "fr_FR": "liste autorisée",
+  "it_IT": "elenco consentito",
+  "pt_PT": "lista permitida"
+ },
+ "bake": {
+  "es": "bake",
+  "de_DE": "Backen",
+  "fr_FR": "cuisson",
+  "it_IT": "bake",
+  "pt_PT": "bake"
+ },
+ "checked": {
+  "es": "comprobado",
+  "de_DE": "geprüft",
+  "fr_FR": "vérifié",
+  "it_IT": "controllato",
+  "pt_PT": "verificado"
+ },
+ "date": {
+  "es": "fecha",
+  "de_DE": "Datum",
+  "fr_FR": "date",
+  "it_IT": "data",
+  "pt_PT": "data"
+ },
+ "decimate": {
+  "es": "decimar",
+  "de_DE": "dezimieren",
+  "fr_FR": "décimer",
+  "it_IT": "decimare",
+  "pt_PT": "decimar"
+ },
+ "fail": {
+  "es": "error",
+  "de_DE": "Fehler",
+  "fr_FR": "échec",
+  "it_IT": "errore",
+  "pt_PT": "falha"
+ },
+ "glTF extensions": {
+  "es": "extensiones glTF",
+  "de_DE": "glTF-Erweiterungen",
+  "fr_FR": "extensions glTF",
+  "it_IT": "estensioni glTF",
+  "pt_PT": "extensões glTF"
+ },
+ "image textures only": {
+  "es": "solo texturas de imagen",
+  "de_DE": "nur Bildtexturen",
+  "fr_FR": "textures d'image uniquement",
+  "it_IT": "solo texture immagine",
+  "pt_PT": "só texturas de imagem"
+ },
+ "max {lim}": {
+  "es": "máx. {lim}",
+  "de_DE": "max. {lim}",
+  "fr_FR": "max. {lim}",
+  "it_IT": "max {lim}",
+  "pt_PT": "máx. {lim}"
+ },
+ "max {max}": {
+  "es": "máx. {max}",
+  "de_DE": "max. {max}",
+  "fr_FR": "max. {max}",
+  "it_IT": "max {max}",
+  "pt_PT": "máx. {max}"
+ },
+ "max {max} px": {
+  "es": "máx. {max} px",
+  "de_DE": "max. {max} px",
+  "fr_FR": "max. {max} px",
+  "it_IT": "max {max} px",
+  "pt_PT": "máx. {max} px"
+ },
+ "n": {
+  "es": "n",
+  "de_DE": "n",
+  "fr_FR": "n",
+  "it_IT": "n",
+  "pt_PT": "n"
+ },
+ "name": {
+  "es": "nombre",
+  "de_DE": "Name",
+  "fr_FR": "nom",
+  "it_IT": "nome",
+  "pt_PT": "nome"
+ },
+ "pass": {
+  "es": "correcto",
+  "de_DE": "bestanden",
+  "fr_FR": "réussi",
+  "it_IT": "superato",
+  "pt_PT": "aprovado"
+ },
+ "require_principled": {
+  "es": "require_principled",
+  "de_DE": "require_principled",
+  "fr_FR": "require_principled",
+  "it_IT": "require_principled",
+  "pt_PT": "require_principled"
+ },
+ "results": {
+  "es": "resultados",
+  "de_DE": "Ergebnisse",
+  "fr_FR": "résultats",
+  "it_IT": "risultati",
+  "pt_PT": "resultados"
+ },
+ "rules": {
+  "es": "reglas",
+  "de_DE": "Regeln",
+  "fr_FR": "règles",
+  "it_IT": "regole",
+  "pt_PT": "regras"
+ },
+ "square, power of two, {lo}–{hi} px": {
+  "es": "cuadrada, potencia de dos, {lo}–{hi} px",
+  "de_DE": "quadratisch, Zweierpotenz, {lo}–{hi} px",
+  "fr_FR": "carrée, puissance de deux, {lo}–{hi} px",
+  "it_IT": "quadrata, potenza di due, {lo}–{hi} px",
+  "pt_PT": "quadrada, potência de dois, {lo}–{hi} px"
+ },
+ "target {lim}": {
+  "es": "objetivo {lim}",
+  "de_DE": "Ziel {lim}",
+  "fr_FR": "objectif {lim}",
+  "it_IT": "obiettivo {lim}",
+  "pt_PT": "objetivo {lim}"
+ },
+ "{fmt} is not accepted": {
+  "es": "{fmt} no se acepta",
+  "de_DE": "{fmt} wird nicht akzeptiert",
+  "fr_FR": "{fmt} n'est pas accepté",
+  "it_IT": "{fmt} non è accettato",
+  "pt_PT": "{fmt} não é aceite"
+ },
+ "{n} edges": {
+  "es": "{n} aristas",
+  "de_DE": "{n} Kanten",
+  "fr_FR": "{n} arêtes",
+  "it_IT": "{n} spigoli",
+  "pt_PT": "{n} arestas"
+ },
+ "{n} faces": {
+  "es": "{n} caras",
+  "de_DE": "{n} Flächen",
+  "fr_FR": "{n} faces",
+  "it_IT": "{n} facce",
+  "pt_PT": "{n} faces"
+ },
+ "{n} images": {
+  "es": "{n} imágenes",
+  "de_DE": "{n} Bilder",
+  "fr_FR": "{n} images",
+  "it_IT": "{n} immagini",
+  "pt_PT": "{n} imagens"
+ },
+ "{n} materials": {
+  "es": "{n} materiales",
+  "de_DE": "{n} Materialien",
+  "fr_FR": "{n} matériaux",
+  "it_IT": "{n} materiali",
+  "pt_PT": "{n} materiais"
+ },
+ "{n} nodes": {
+  "es": "{n} nodos",
+  "de_DE": "{n} Nodes",
+  "fr_FR": "{n} nœuds",
+  "it_IT": "{n} nodi",
+  "pt_PT": "{n} nós"
+ },
+ "{n} objects": {
+  "es": "{n} objetos",
+  "de_DE": "{n} Objekte",
+  "fr_FR": "{n} objets",
+  "it_IT": "{n} oggetti",
+  "pt_PT": "{n} objetos"
+ },
+ "{n} textures": {
+  "es": "{n} texturas",
+  "de_DE": "{n} Texturen",
+  "fr_FR": "{n} textures",
+  "it_IT": "{n} texture",
+  "pt_PT": "{n} texturas"
+ },
+ "{n} textures could be JPG": {
+  "es": "{n} texturas podrían ser JPG",
+  "de_DE": "{n} Texturen könnten JPG sein",
+  "fr_FR": "{n} textures pourraient être en JPG",
+  "it_IT": "{n} texture potrebbero essere JPG",
+  "pt_PT": "{n} texturas podiam ser JPG"
+ },
+ "{n} textures outside the range": {
+  "es": "{n} texturas fuera del rango",
+  "de_DE": "{n} Texturen außerhalb des Bereichs",
+  "fr_FR": "{n} textures hors de la plage",
+  "it_IT": "{n} texture fuori intervallo",
+  "pt_PT": "{n} texturas fora do intervalo"
+ },
+ "{n} textures too large": {
+  "es": "{n} texturas demasiado grandes",
+  "de_DE": "{n} Texturen zu groß",
+  "fr_FR": "{n} textures trop grandes",
+  "it_IT": "{n} texture troppo grandi",
+  "pt_PT": "{n} texturas demasiado grandes"
+ },
+ "{n} things to fix before {store} accepts this model": {
+  "es": "{n} cosas por corregir antes de que {store} acepte este modelo",
+  "de_DE": "{n} Punkte zu beheben, bevor {store} dieses Modell akzeptiert",
+  "fr_FR": "{n} points à corriger avant que {store} accepte ce modèle",
+  "it_IT": "{n} cose da correggere prima che {store} accetti questo modello",
+  "pt_PT": "{n} coisas a corrigir antes de a {store} aceitar este modelo"
+ },
+ "{pct}% of texture": {
+  "es": "{pct} % de la textura",
+  "de_DE": "{pct} % der Textur",
+  "fr_FR": "{pct} % de la texture",
+  "it_IT": "{pct}% della texture",
+  "pt_PT": "{pct}% da textura"
+ },
+ "{r}× its real size": {
+  "es": "{r}× su tamaño real",
+  "de_DE": "{r}× der echten Größe",
+  "fr_FR": "{r}× sa taille réelle",
+  "it_IT": "{r}× le dimensioni reali",
+  "pt_PT": "{r}× o tamanho real"
+ },
+ "Real size (cm)": {
+  "es": "Tamaño real (cm)",
+  "de_DE": "Echte Größe (cm)",
+  "fr_FR": "Taille réelle (cm)",
+  "it_IT": "Dimensioni reali (cm)",
+  "pt_PT": "Tamanho real (cm)"
+ },
+ "Width": {
+  "es": "Ancho",
+  "de_DE": "Breite",
+  "fr_FR": "Largeur",
+  "it_IT": "Larghezza",
+  "pt_PT": "Largura"
+ },
+ "Depth": {
+  "es": "Fondo",
+  "de_DE": "Tiefe",
+  "fr_FR": "Profondeur",
+  "it_IT": "Profondità",
+  "pt_PT": "Profundidade"
+ },
+ "Height": {
+  "es": "Alto",
+  "de_DE": "Höhe",
+  "fr_FR": "Hauteur",
+  "it_IT": "Altezza",
+  "pt_PT": "Altura"
+ },
+ "{n} fail": {
+  "es": "{n} fallo(s)",
+  "de_DE": "{n} Fehler",
+  "fr_FR": "{n} échec(s)",
+  "it_IT": "{n} errore/i",
+  "pt_PT": "{n} falha(s)"
+ },
+ "{n} warn": {
+  "es": "{n} aviso(s)",
+  "de_DE": "{n} Warnung(en)",
+  "fr_FR": "{n} avertissement(s)",
+  "it_IT": "{n} avviso/i",
+  "pt_PT": "{n} aviso(s)"
+ },
+ "{n} manual": {
+  "es": "{n} manual(es)",
+  "de_DE": "{n} manuell",
+  "fr_FR": "{n} manuel(s)",
+  "it_IT": "{n} manuale/i",
+  "pt_PT": "{n} manual(is)"
+ },
+ "{n} pass": {
+  "es": "{n} superada(s)",
+  "de_DE": "{n} bestanden",
+  "fr_FR": "{n} réussie(s)",
+  "it_IT": "{n} superata/e",
+  "pt_PT": "{n} aprovada(s)"
+ },
+ "{n} fixed on export": {
+  "es": "{n} corregido(s) al exportar",
+  "de_DE": "{n} beim Export behoben",
+  "fr_FR": "{n} corrigé(s) à l'export",
+  "it_IT": "{n} corretto/i all'esportazione",
+  "pt_PT": "{n} corrigido(s) ao exportar"
+ },
+ "Fixed on the export copy": {
+  "es": "Corregido en la copia de exportación",
+  "de_DE": "In der Exportkopie behoben",
+  "fr_FR": "Corrigé sur la copie d'export",
+  "it_IT": "Corretto nella copia di esportazione",
+  "pt_PT": "Corrigido na cópia de exportação"
+ }
+}

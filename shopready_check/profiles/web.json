@@ -1,0 +1,72 @@
+{
+ "id": "web",
+ "name": "Web glTF",
+ "checked": "2026-11-06",
+ "formats": [
+  "glb"
+ ],
+ "draco": true,
+ "rules": [
+  {
+   "id": "WEB-FORMAT",
+   "severity": "fail",
+   "kind": "format",
+   "name": "File format",
+   "why": "GLB is one file with everything inside, the easiest to host.",
+   "formats": [
+    "glb"
+   ],
+   "source": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html",
+   "quote": ""
+  },
+  {
+   "id": "WEB-SIZE",
+   "severity": "warn",
+   "kind": "file_size",
+   "name": "File size",
+   "why": "Pages load fast when models stay under 5 MB.",
+   "max_bytes": 5000000,
+   "source": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html",
+   "quote": ""
+  },
+  {
+   "id": "WEB-TEX-MAX",
+   "severity": "warn",
+   "kind": "texture_max",
+   "name": "Texture size",
+   "why": "Textures over 2048 px slow down phones.",
+   "max_px": 2048,
+   "source": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html",
+   "quote": ""
+  },
+  {
+   "id": "WEB-DRACO",
+   "severity": "warn",
+   "kind": "draco",
+   "name": "Draco compression",
+   "why": "Draco makes mesh data much smaller to download.",
+   "source": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html",
+   "quote": ""
+  },
+  {
+   "id": "WEB-ONE-MAT",
+   "severity": "warn",
+   "kind": "material_count",
+   "name": "One material",
+   "why": "One material means fewer draw calls.",
+   "max": 1,
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "There is only one material assigned to the model, unless otherwise necessary."
+  },
+  {
+   "id": "WEB-ORIGIN",
+   "severity": "warn",
+   "kind": "origin",
+   "name": "Origin at the base",
+   "why": "Viewers place the model on the ground at its origin.",
+   "tolerance_m": 0.001,
+   "source": "https://help.shopify.com/en/partners/resources/creating-3d-models/3d-model-standards-checklist",
+   "quote": "The base of the model has been placed at the origin of the grid."
+  }
+ ]
+}

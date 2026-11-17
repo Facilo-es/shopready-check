@@ -1,0 +1,139 @@
+{
+ "id": "amazon",
+ "name": "Amazon",
+ "checked": "2026-11-16",
+ "formats": [
+  "glb"
+ ],
+ "draco": false,
+ "rules": [
+  {
+   "id": "AZ-FORMAT",
+   "severity": "fail",
+   "kind": "format",
+   "name": "File format",
+   "why": "Amazon takes 3D models as GLB or glTF.",
+   "formats": [
+    "glb",
+    "gltf"
+   ],
+   "source": "https://sellercentral.amazon.com/help/hub/reference/external/G7RGSNQFZ2BAG7K3",
+   "quote": "We accept assets in .GLB (binary) and .glTF file formats, along with their corresponding supporting textures."
+  },
+  {
+   "id": "AZ-TRIS",
+   "severity": "fail",
+   "kind": "triangles",
+   "name": "Triangles",
+   "why": "Amazon refuses models over its triangle limit.",
+   "max": 200000,
+   "source": "https://sellercentral.amazon.com/help/hub/reference/external/G7RGSNQFZ2BAG7K3",
+   "quote": "Models should not exceed 200K triangles."
+  },
+  {
+   "id": "AZ-TEX-RANGE",
+   "severity": "fail",
+   "kind": "texture_range",
+   "name": "Texture size",
+   "why": "Amazon wants square power-of-two textures from 2048 to 4096 px.",
+   "min_px": 2048,
+   "max_px": 4096,
+   "square": true,
+   "pow2": true,
+   "source": "https://sellercentral.amazon.com/help/hub/reference/external/G7RGSNQFZ2BAG7K3",
+   "quote": "It must be square and power of two, with a final resolution of no larger than 4K (4,096 x 4,096 pixels), and no smaller than 2K (2,048 x 2,048 pixels), on all sides."
+  },
+  {
+   "id": "AZ-TEX-FORMAT",
+   "severity": "fail",
+   "kind": "texture_format",
+   "name": "Texture format",
+   "why": "Textures must be PNG or JPG inside the file.",
+   "mode": "png_or_jpg",
+   "source": "https://sellercentral.amazon.com/help/hub/reference/external/G7RGSNQFZ2BAG7K3",
+   "quote": "We accept texture files in .PNG and .JPG format. We do not accept glTF files with image resources embedded directly in JSON."
+  },
+  {
+   "id": "AZ-PBR",
+   "severity": "fail",
+   "kind": "pbr",
+   "name": "PBR material",
+   "why": "Every material needs base colour and metallic-roughness.",
+   "require_principled": true,
+   "flag_procedural": true,
+   "source": "https://sellercentral.amazon.com/help/hub/reference/external/G7RGSNQFZ2BAG7K3",
+   "quote": "All materials are PBR Metal-Rough and PBR-compliant."
+  },
+  {
+   "id": "AZ-NO-EXTRAS",
+   "severity": "fail",
+   "kind": "no_extras",
+   "name": "No extras",
+   "why": "Amazon refuses files with modifiers, animation, cameras or lights.",
+   "items": [
+    "modifiers",
+    "animation",
+    "cameras",
+    "lights"
+   ],
+   "source": "https://sellercentral.amazon.com/help/hub/reference/external/G7RGSNQFZ2BAG7K3",
+   "quote": "Model should not contain modifiers, animation key frames, cameras, or lights."
+  },
+  {
+   "id": "AZ-EXT",
+   "severity": "fail",
+   "kind": "extensions",
+   "name": "glTF extensions",
+   "why": "Amazon only accepts a short list of glTF extensions.",
+   "allowed": [
+    "KHR_materials_sheen",
+    "KHR_materials_transmission",
+    "KHR_materials_clearcoat",
+    "KHR_materials_ior",
+    "KHR_materials_volume",
+    "KHR_draco_mesh_compression",
+    "KHR_interactivity"
+   ],
+   "source": "https://sellercentral.amazon.com/help/hub/reference/external/G7RGSNQFZ2BAG7K3",
+   "quote": "Unlisted glTF extensions are not currently supported."
+  },
+  {
+   "id": "AZ-PLACEMENT",
+   "severity": "warn",
+   "kind": "origin",
+   "name": "Placement",
+   "why": "Floor products should stand on the ground, centred. Wall and ceiling products differ.",
+   "tolerance_m": 0.001,
+   "source": "https://sellercentral.amazon.com/help/hub/reference/external/G7RGSNQFZ2BAG7K3",
+   "quote": "All floor-oriented models are centered at the base of the bottom surface in both the X and Z Axes. The pivot point should be at 0,0,0."
+  },
+  {
+   "id": "AZ-DOUBLE-SIDED",
+   "severity": "warn",
+   "kind": "double_sided",
+   "name": "Single-sided materials",
+   "why": "Double-sided materials cost render time and can hide errors.",
+   "source": "https://sellercentral.amazon.com/help/hub/reference/external/G7RGSNQFZ2BAG7K3",
+   "quote": "Double-sided textures are not supported."
+  },
+  {
+   "id": "AZ-SIZE",
+   "severity": "warn",
+   "kind": "file_size",
+   "name": "File size",
+   "why": "Advice from third parties, not Amazon's page: keep files under 5 MB.",
+   "max_bytes": 5000000,
+   "source": "https://github.khronos.org/glTF-Validator/",
+   "quote": ""
+  },
+  {
+   "id": "AZ-VALIDATOR",
+   "severity": "manual",
+   "kind": "manual",
+   "name": "Run the Khronos glTF Validator",
+   "why": "Amazon expects files without validator errors.",
+   "source": "https://github.khronos.org/glTF-Validator/",
+   "quote": "The Khronos Group glTF-Validator tool must be used to check that files meet technical requirements."
+  }
+ ]
+}
