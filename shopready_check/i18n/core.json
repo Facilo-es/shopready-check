@@ -1371,18 +1371,53 @@
   "it_IT": "{n} superata/e",
   "pt_PT": "{n} aprovada(s)"
  },
- "{n} fixed on export": {
-  "es": "{n} corregido(s) al exportar",
-  "de_DE": "{n} beim Export behoben",
-  "fr_FR": "{n} corrigé(s) à l'export",
-  "it_IT": "{n} corretto/i all'esportazione",
-  "pt_PT": "{n} corrigido(s) ao exportar"
+ "Camera": {
+  "es": "Cámara",
+  "de_DE": "Kamera",
+  "fr_FR": "Caméra",
+  "it_IT": "Camera",
+  "pt_PT": "Câmara"
  },
- "Fixed on the export copy": {
-  "es": "Corregido en la copia de exportación",
-  "de_DE": "In der Exportkopie behoben",
-  "fr_FR": "Corrigé sur la copie d'export",
-  "it_IT": "Corretto nella copia di esportazione",
-  "pt_PT": "Corrigido na cópia de exportação"
+ "GLB": {
+  "es": "GLB",
+  "de_DE": "GLB",
+  "fr_FR": "GLB",
+  "it_IT": "GLB",
+  "pt_PT": "GLB"
+ },
+ "GLB / GLTF": {
+  "es": "GLB / GLTF",
+  "de_DE": "GLB / GLTF",
+  "fr_FR": "GLB / GLTF",
+  "it_IT": "GLB / GLTF",
+  "pt_PT": "GLB / GLTF"
+ },
+ "GLB / USDZ": {
+  "es": "GLB / USDZ",
+  "de_DE": "GLB / USDZ",
+  "fr_FR": "GLB / USDZ",
+  "it_IT": "GLB / USDZ",
+  "pt_PT": "GLB / USDZ"
+ },
+ "Lamp": {
+  "es": "Lámpara",
+  "de_DE": "Lampe",
+  "fr_FR": "Lampe",
+  "it_IT": "Lampada",
+  "pt_PT": "Candeeiro"
+ },
+ "Light": {
+  "es": "Luz",
+  "de_DE": "Licht",
+  "fr_FR": "Lumière",
+  "it_IT": "Luce",
+  "pt_PT": "Luz"
+ },
+ "Noise Texture": {
+  "es": "Textura de ruido",
+  "de_DE": "Rauschtextur",
+  "fr_FR": "Texture de bruit",
+  "it_IT": "Texture rumore",
+  "pt_PT": "Textura de ruído"
  }
 }

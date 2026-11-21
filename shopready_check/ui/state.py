@@ -4,11 +4,8 @@ from ..checks import KINDS
 from ..core import profiles as _profiles
 
 STORE = {}            # scene name -> dict(profile, results, verdict, model)
-QUEUED = {}           # scene name -> fix kinds queued on the export copy (empty when fixes are not installed)
 _CACHE = {"profiles": None, "errors": []}
 
-# Optional modules add draw hooks here: fn(layout, result, index)
-ROW_EXTRAS = []
 
 
 def profiles(reload=False):

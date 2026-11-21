@@ -18,7 +18,3 @@ class Result:
     source: str = ""
     select: dict = field(default_factory=dict)   # {"objects": [...]} or {"faces": {obj: [idx]}}
     fix: str = ""               # fix kind that can solve it, if any
-    fixed: bool = False         # solved on the export copy by a queued fix
-
-    def to_dict(self):
-        return {k: getattr(self, k) for k in self.__dataclass_fields__}

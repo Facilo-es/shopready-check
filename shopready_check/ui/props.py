@@ -6,7 +6,7 @@ from bpy.props import (BoolProperty, CollectionProperty, EnumProperty, FloatProp
 from ..edition import PREFIX
 from . import state
 
-PROP = PREFIX.lower()          # scene.<PROP>, so both editions can sit side by side
+PROP = "shopreadycheck"          # scene.<PROP>, so both editions can sit side by side
 _ITEMS = []                     # Blender needs the enum item strings kept alive
 
 
@@ -57,8 +57,8 @@ class Settings(bpy.types.PropertyGroup):
         return None
 
 
-ManualTick.__name__ = f"{PREFIX}_ManualTick"
-Settings.__name__ = f"{PREFIX}_Settings"
+ManualTick.__name__ = "SHOPREADYCHECK_ManualTick"
+Settings.__name__ = "SHOPREADYCHECK_Settings"
 CLASSES = (ManualTick, Settings)
 
 

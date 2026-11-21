@@ -11,7 +11,7 @@ from .. import i18n
 from . import state
 from .props import settings
 
-OP = PREFIX.lower()
+OP = "shopreadycheck"
 
 
 def run_check(context):
@@ -25,11 +25,12 @@ def run_check(context):
         raise ValueError("Nothing to check. Select the product first")
     t0 = time.perf_counter()
     model = gather(objs, context.evaluated_depsgraph_get(), state.grid_of(prof))
-    results = run_profile(model, prof, s.real_cm(), state.QUEUED.get(context.scene.name, ()))
+    results = run_profile(model, prof, s.real_cm())
     for r in results:
         if r.status == "manual":
             s.tick(r.rule_id, create=True)
-    entry = {"profile": prof, "results": results, "verdict": verdict([r for r in results if not r.fixed]),
+    counted = results
+    entry = {"profile": prof, "results": results, "verdict": verdict(counted),
              "model": model,
              "objects": [o.name for o in objs], "seconds": time.perf_counter() - t0}
     state.STORE[context.scene.name] = entry
@@ -37,7 +38,7 @@ def run_check(context):
 
 
 class Check(bpy.types.Operator):
-    bl_idname = f"{OP}.check"
+    bl_idname = "shopreadycheck.check"
     bl_label = "Check model"
     bl_description = "Check the product against the store's rules. Your scene is not changed"
     bl_options = {"REGISTER"}
@@ -71,7 +72,7 @@ def _frame(context):
 
 
 class Select(bpy.types.Operator):
-    bl_idname = f"{OP}.select"
+    bl_idname = "shopreadycheck.select"
     bl_label = "Select"
     bl_description = "Select what this line is about and frame it in the view"
     bl_options = {"REGISTER", "UNDO"}
@@ -125,7 +126,7 @@ class Select(bpy.types.Operator):
 
 
 class Source(bpy.types.Operator):
-    bl_idname = f"{OP}.source"
+    bl_idname = "shopreadycheck.source"
     bl_label = "Rule source"
     bl_options = {"INTERNAL"}
     index: IntProperty(options={"HIDDEN"})
@@ -147,7 +148,7 @@ class Source(bpy.types.Operator):
 
 
 class Reload(bpy.types.Operator):
-    bl_idname = f"{OP}.reload_profiles"
+    bl_idname = "shopreadycheck.reload_profiles"
     bl_label = "Reload profiles"
     bl_description = "Read the store profiles again from disk"
     bl_options = {"INTERNAL"}
@@ -159,8 +160,10 @@ class Reload(bpy.types.Operator):
         return {"FINISHED"}
 
 
-for _c, _n in ((Check, "check"), (Select, "select"), (Source, "source"), (Reload, "reload")):
-    _c.__name__ = f"{PREFIX}_OT_{_n}"
+Check.__name__ = "SHOPREADYCHECK_OT_check"
+Select.__name__ = "SHOPREADYCHECK_OT_select"
+Source.__name__ = "SHOPREADYCHECK_OT_source"
+Reload.__name__ = "SHOPREADYCHECK_OT_reload"
 CLASSES = (Check, Select, Source, Reload)
 
 

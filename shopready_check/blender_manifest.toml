@@ -1,13 +1,13 @@
 schema_version = "1.0.0"
 
 id = "shopready_check"
-version = "1.0.1"
+version = "1.0.2"
 name = "ShopReady Check"
 tagline = "Check 3D product models against Shopify and Amazon rules"
 maintainer = "Facilo <info@facilo.es>"
 type = "add-on"
 website = "https://github.com/Facilo-es/shopready-check"
-tags = ["Import-Export", "Mesh", "Material"]
+tags = ["Import-Export", "Mesh"]
 blender_version_min = "4.2.0"
 license = ["SPDX:GPL-3.0-or-later"]
 copyright = ["2026 Facilo"]

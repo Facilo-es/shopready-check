@@ -19,7 +19,6 @@ class Ctx:
     model: object
     profile: dict
     real_cm: tuple = None        # (width, depth, height) or None
-    fixes: tuple = ()            # fix kinds queued on the export copy
 
 
 def base(rule, status, measured="", limit="", message="", **kw):
@@ -28,13 +27,11 @@ def base(rule, status, measured="", limit="", message="", **kw):
                   why=rule.get("why", ""), source=rule.get("source", ""), **kw)
 
 
-def run_profile(model, profile, real_cm=None, fixes=()):
-    ctx = Ctx(model=model, profile=profile, real_cm=real_cm, fixes=tuple(fixes))
+def run_profile(model, profile, real_cm=None):
+    ctx = Ctx(model=model, profile=profile, real_cm=real_cm)
     out = []
     for rule in profile["rules"]:
         out.extend(KINDS[rule["kind"]](ctx, rule))
-    for r in out:
-        r.fixed = bool(r.fix) and r.fix in ctx.fixes and r.status in ("fail", "warn")
     out.sort(key=lambda r: ORDER[r.status])
     return out
 

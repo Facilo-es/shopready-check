@@ -4,7 +4,7 @@ import textwrap
 import bpy
 
 from .. import i18n
-from ..edition import EDITION, PREFIX
+from ..edition import PREFIX
 from . import state
 from .ops import OP
 from .props import settings
@@ -26,15 +26,8 @@ def wrapped(lay, text, cols, prefix="", **kw):
 
 
 WORD = {"fail": "Fail", "warn": "Warn", "manual": "Manual", "pass": "Pass", "info": "Info"}
-COUNT = {"fail": "{n} fail", "warn": "{n} warn", "manual": "{n} manual", "fixed": "{n} fixed on export",
+COUNT = {"fail": "{n} fail", "warn": "{n} warn", "manual": "{n} manual",
          "pass": "{n} pass"}
-
-
-def _hidden(context):
-    """Only one ShopReady tab is drawn when two ShopReady add-ons are enabled."""
-    if EDITION != "free":
-        return False
-    return any(k.endswith("shopready_3d") for k in context.preferences.addons.keys())
 
 
 class _Base:
@@ -42,13 +35,9 @@ class _Base:
     bl_region_type = "UI"
     bl_category = "ShopReady"
 
-    @classmethod
-    def poll(cls, context):
-        return not _hidden(context)
-
 
 class Target(_Base, bpy.types.Panel):
-    bl_idname = f"{PREFIX}_PT_target"
+    bl_idname = "SHOPREADYCHECK_PT_target"
     bl_label = "Target"
     bl_order = 0
 
@@ -60,7 +49,7 @@ class Target(_Base, bpy.types.Panel):
         lay.prop(s, "scope")
         row = lay.row(align=True)
         row.prop(s, "profile")
-        row.operator(f"{OP}.reload_profiles", text="", icon="FILE_REFRESH")
+        row.operator("shopreadycheck.reload_profiles", text="", icon="FILE_REFRESH")
         prof = state.profile(s.profile)
         lang = i18n.current_lang()
         if prof:
@@ -79,15 +68,15 @@ class Target(_Base, bpy.types.Panel):
         lay.use_property_split = False
         big = lay.row()
         big.scale_y = 1.6
-        big.operator(f"{OP}.check", icon="VIEWZOOM")
+        big.operator("shopreadycheck.check", icon="VIEWZOOM")
 
 
 def summary_line(results, lang):
     counts = {k: 0 for k in COUNT}
     counts["info"] = 0
     for r in results:
-        # a fix queued for the export copy counts as solved, as the verdict does
-        counts["fixed" if r.fixed else r.status] += 1
+        key = r.status
+        counts[key] += 1
     parts = [i18n.fmt(COUNT[k], {"n": counts[k]}, lang) for k in COUNT if counts[k]]
     return " · ".join(parts)
 
@@ -114,7 +103,8 @@ def draw_row(lay, r, i, s, lang, cols=200):
         else:
             row.label(text=i18n.tr(r.name, lang), icon=ICON["manual"], translate=False)
     else:
-        icon = ICON["pass" if r.fixed else r.status]
+        status = r.status
+        icon = ICON[status]
         val = i18n.fmt(r.measured, r.args, lang)
         if r.limit:
             val += " / " + i18n.fmt(r.limit, r.args, lang)
@@ -130,16 +120,14 @@ def draw_row(lay, r, i, s, lang, cols=200):
             right.label(text=val, translate=False)
             val = None
     if r.select:
-        row.operator(f"{OP}.select", text="", icon="RESTRICT_SELECT_OFF").index = i
-    for hook in state.ROW_EXTRAS:
-        hook(row, r, i)
+        row.operator("shopreadycheck.select", text="", icon="RESTRICT_SELECT_OFF").index = i
     if r.source:
-        row.operator(f"{OP}.source", text="", icon="INFO").index = i
+        row.operator("shopreadycheck.source", text="", icon="INFO").index = i
     if r.status != "manual" and val:
         line = box.column()
         line.scale_y = 0.7
         wrapped(line, val, cols, "    ")
-    note = i18n.tr("Fixed on the export copy", lang) if r.fixed else i18n.fmt(r.message, r.args, lang) if r.message else ""
+    note = i18n.fmt(r.message, r.args, lang) if r.message else ""
     if note:
         msg = box.column()
         msg.scale_y = 0.7
@@ -147,7 +135,7 @@ def draw_row(lay, r, i, s, lang, cols=200):
 
 
 class Results(_Base, bpy.types.Panel):
-    bl_idname = f"{PREFIX}_PT_results"
+    bl_idname = "SHOPREADYCHECK_PT_results"
     bl_label = "Results"
     bl_order = 1
 
