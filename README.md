@@ -10,6 +10,12 @@ General mesh checkers tell you about geometry. ShopReady Check tells you what a 
 
 ## Install
 
+ShopReady Check is on Blender Extensions: https://extensions.blender.org/add-ons/shopready-check/
+
+The quickest way: in Blender, open **Edit > Preferences > Get Extensions**, search for **ShopReady Check** and click **Install**. You can also drag the **Get Add-on** button from the listing into Blender.
+
+Or install it from a zip:
+
 1. Download `shopready_check-<version>.zip` from the [latest release](https://github.com/Facilo-es/shopready-check/releases/latest). Do not unzip it.
 2. In Blender, open **Edit > Preferences > Get Extensions**.
 3. Open the dropdown at the top right and choose **Install from Disk**, then pick the zip.
